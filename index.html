@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Website Design System</title>
+        <!-- Fonts START -->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+        <!-- Fonts END -->
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+    </head>
+    <body>
+        <header class="color-block-header">
+            <nav>
+                <ul>
+                    <li><a href="#colors" class="text-style-navlinks">Colors</a></li>
+                    <li><a href="#fonts" class="text-style-navlinks">Fonts</a></li>
+                    <li><a href="#textstyles" class="text-style-navlinks">Text Styles</a></li>
+                    <li><a href="#buttons" class="text-style-navlinks">Buttons</a></li>
+                </ul>
+            </nav>
+            <h1 class="font-poppins text-style-mainheading">My Website Style Guide</h1>
+        </header>
+        <main>
+            <section id="colors">
+                <div class="container">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td rowspan="4" class="description font-roboto">
+                                    <h3 class="text-style-subheading">Colors</h3>
+                                    <p class="text-style-paragraph">These colors will be used in the background for various sections of the web application.</p>
+                                </td>
+                                <td class="color-blocks color-block-header">Header/Buttons<br />#6673FC</td>
+                            </tr>
+                            <tr>
+                                <td class="color-blocks color-block-section">Sections<br />#EEF1F5</td>
+                            </tr>
+                            <tr>
+                                <td class="color-blocks color-block-button">Buttons<br />#46D7EA</td>
+                            </tr>
+                            <tr>
+                                <td class="color-blocks color-block-footer">Footer<br />#222C3C</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+            <section id="fonts" class="color-block-section">
+                <div class="container">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td class="font-blocks font-poppins">
+                                    <h4>Poppins</h4>
+                                    <p class="font-block-regular">The quick brown fox jumps over the lazy dog.</p>
+                                    <p class="font-block-bold">The quick brown fox jumps over the lazy dog.</p>
+                                    <p class="font-block-italic">The quick brown fox jumps over the lazy dog.</p>
+                                </td>
+                                <td rowspan="2" class="description font-roboto">
+                                    <h3 class="text-style-subheading">Fonts</h3>
+                                    <p class="text-style-paragraph">These fonts will be used for the headings and content area of the web application.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="font-blocks font-roboto">
+                                    <h4>Roboto</h4>
+                                    <p class="font-block-regular">The quick brown fox jumps over the lazy dog.</p>
+                                    <p class="font-block-bold">The quick brown fox jumps over the lazy dog.</p>
+                                    <p class="font-block-italic">The quick brown fox jumps over the lazy dog.</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+            <section id="textstyles">
+                <div class="container">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td rowspan="5" class="description font-roboto">
+                                    <h3 class="text-style-subheading">Text Styles</h3>
+                                    <p class="text-style-paragraph">These text styles will be used along with the fonts for the web application.</p>
+                                </td>
+                                <td class="font-poppins">
+                                    <h1 class="color-block-header text-style-mainheading">H1: Main Heading</h1>
+                                    <ul>
+                                        <li>font-family: 'Poppins', sans-serif;</li>
+                                        <li>font-size: 28.8px;</li>
+                                        <li>font-weight: bold;</li>
+                                        <li>text-align: center;</li>
+                                        <li>text-transform: uppercase;</li>
+                                        <li>color: #FFFFFF;</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="font-poppins">
+                                    <a href="#" class="color-block-header text-style-navlinks">A: Navigation</a>
+                                    <ul>
+                                        <li>font-family: 'Poppins', sans-serif;</li>
+                                        <li>font-size: 16px;</li>
+                                        <li>text-transform: uppercase;</li>
+                                        <li>text-decoration: none;</li>
+                                        <li>padding: 5px;</li>
+                                        <li>color: #FFFFFF;</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="font-roboto">
+                                    <h3 class="text-style-subheading">H3: Section Heading</h3>
+                                    <ul>
+                                        <li>font-family: 'Roboto', sans-serif;</li>
+                                        <li>font-size: 20px;</li>
+                                        <li>font-weight: bold;</li>
+                                        <li>line-height: 18px;</li>
+                                        <li>text-align: center;</li>
+                                        <li>color: #3A405B;</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="font-roboto">
+                                    <p class="text-style-paragraph">P: Paragraph Text</p>
+                                    <ul>
+                                        <li>font-family: 'Roboto', sans-serif;</li>
+                                        <li>font-size: 16px;</li>
+                                        <li>text-align: center;</li>
+                                        <li>color: #6E6767;</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="font-poppins">
+                                    <p class="text-style-footer">P: Footer Text</p>
+                                    <ul>
+                                        <li>font-family: 'Poppins', sans-serif;</li>
+                                        <li>font-size: 13px;</li>
+                                        <li>font-weight: bold;</li>
+                                        <li>font-style: italic;</li>
+                                        <li>text-align: right;</li>
+                                        <li>color: #FFC000;</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+            <section id="buttons" class="color-block-section">
+                <div class="container">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div class="center-align">
+                                        <button class="btn-style-base">Base Style</button>
+                                    </div>
+                                    <ul>
+                                        <li>border-radius: 4px;</li>
+                                        <li>font-size: 12px;</li>
+                                        <li>font-weight: 600;</li>
+                                        <li>text-transform: uppercase;</li>
+                                        <li>padding: 10px 14px 10px;</li>
+                                        <li>cursor: pointer;</li>
+                                        <li>box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgb(0, 0, 0, 0.18);</li>
+                                    </ul>
+                                </td>
+                                <td rowspan="3" class="description font-roboto">
+                                    <h3 class="text-style-subheading">Buttons</h3>
+                                    <p class="text-style-paragraph">These buttons will be used throughout the web application.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="center-align">
+                                        <button class="btn-style-base btn-style-1">Submit</button>
+                                    </div>
+                                    <ul class="font-poppins">
+                                        <li>font-family: 'Poppins', sans-serif;</li>
+                                        <li>background-color: #6673fc;</li>
+                                        <li>border: 1px solid #6673fc;</li>
+                                        <li>color: #FFFFFF;</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="center-align">
+                                        <button class="btn-style-base btn-style-2">Submit</button>
+                                    </div>
+                                    <ul class="font-roboto">
+                                        <li>font-family: 'Roboto', sans-serif;</li>
+                                        <li>background-color: #46D7EA;</li>
+                                        <li>border: 1px solid #46D7EA;</li>
+                                        <li>color: #FFFFFF;</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
+        <footer class="color-block-footer">
+            <p class="text-style-footer">Completed by Shanna in March 2023</p>
+        </footer>
+    </body>
+</html>
